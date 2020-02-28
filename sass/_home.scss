@@ -365,7 +365,7 @@ text-align: center;
 	}
   }
   .swiper-container.testimonial {
-	height: 400px;
+	height: 450px;
   }
   .testimonial-section {
 	  display: flex;
@@ -377,6 +377,7 @@ text-align: center;
 		  background: var(--theme-color2);
 		  width: 60%;
 		  color: #fff;
+		  height:100%;
 	  }
 	  .quote {
 		width: 100%;

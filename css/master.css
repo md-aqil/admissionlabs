@@ -444,7 +444,7 @@ html, body {
 }
 
 .swiper-container.testimonial {
-  height: 400px;
+  height: 450px;
 }
 
 .testimonial-section {
@@ -462,6 +462,7 @@ html, body {
   background: var(--theme-color2);
   width: 60%;
   color: #fff;
+  height: 100%;
 }
 
 .testimonial-section .quote {
