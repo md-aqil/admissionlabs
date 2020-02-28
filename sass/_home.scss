@@ -123,11 +123,11 @@ text-align: center;
 	margin: 40px auto;
   }
   .ui-select {
-	  width: 245px !important;
+	  width: 243px !important;
 	  position: relative;
-	
 	width:100%;
 	background:#fff;
+	white-space: nowrap;
   
   }
   .ui-select > span {
@@ -156,11 +156,13 @@ text-align: center;
 		z-index: 10000;
 		margin-top: -1px;
 		border-top:none;
-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
-border-radius: 5px;
-border-top-left-radius: 0;
-border-top-right-radius: 0;
 
+	border-radius: 5px;
+	box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.15);
+	
+
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
   }
   .ui-select li {
 	cursor: pointer;
@@ -570,22 +572,6 @@ color: #fff;
     justify-content: center;
 }
 
-.modal-close-button {
-	--size: 35px;
-    border-radius: 2.85px;
-    width: var(--size);
-    height: var(--size);
-    text-align: center;
-    background: #00000021;
-    line-height: var(--size);
-    position: absolute;
-    top: 15px;
-	right: 15px;
-	&:hover {
-		background: var(--theme-color1) !important;
-	}
-	
-}
 
 .a-center {
 	display: flex;

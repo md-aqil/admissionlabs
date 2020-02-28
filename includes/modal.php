@@ -9,9 +9,6 @@
 						<img src="img/art1.png" alt="">
 					</div>
 					<div class="col-md-6 mr-content">
-						<div class="modal-close-button close" data-dismiss="modal">
-							<img src="img/icons/close-icon.png" alt="">
-						</div>
 						<h2 class="bold">What are you</h2>
 						<h4 class="bold">searching for ?</h4>
 						<ul class="icons-list">
@@ -38,6 +35,13 @@
 		  </div>
 	</div>
 </div>
+
+
+
+
+
+
+
 <div class="modal fade" id="two" tabindex="-1" role="dialog" aria-labelledby="two" aria-hidden="true">
 		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 		  <div class="modal-content">
