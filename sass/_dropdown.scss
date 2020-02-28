@@ -1,0 +1,103 @@
+
+
+  .search-form-box {
+	position: relative;
+  }
+  .search-form-box .drop-menu {
+	position: absolute;
+    left: 0;
+    padding: 0;
+    background: #fff;
+    top: 65px;
+    width: 100%;
+	-webkit-transition: all 0.2s cubic-bezier(0.680, 0, 0.265, 1);
+	transition: all 0.2s;
+	-webkit-transform: scale(0);
+			transform: scale(0);
+	-webkit-transform-origin: 0 0;
+			transform-origin:top left;
+			box-shadow: 0 2px 3px 0 rgba(34,36,38,.15);
+  }
+
+  .search-form-box .drop-menu li {
+	display: block;
+	width: 100%;
+	opacity: 0;
+	transform: translateY(-20px);
+   
+  }
+  .search-form-box .open.drop-menu li {
+	display: block;
+	 transition: all .4s;
+	opacity: 1;
+	transform: translateY(0px);
+  }
+ 
+
+  .search-form-box .open.drop-menu {
+	-webkit-transform: scale(1);
+	  transform: scale(1);
+	  transition-timing-function: cubic-bezier(0.680, 0, 0.265, 1);
+  }
+
+  .suggestion-search-menu {
+	  .suggestion-anchor {
+		  text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+		  h5 {
+			  font-weight: 500;
+			  color: #212121;
+			  font-size: 16px;
+			  margin: 0;
+		  }
+		  p {
+			  color: #888888;
+			  font-size: 14px;
+			  font-weight: 300;
+			  margin: 0;
+			  text-align: left;
+		  }
+		  .s-tag {
+			width: 41px;
+			height: 41px;
+			background: transparent;
+			color: #212121;
+			border-radius: 3px;
+			background: var(--theme-color1);
+			text-align: center;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-weight: bold;
+			margin-right: 20px;
+		  }
+	  }
+	  .sright {
+		  text-align: right;
+		  p {
+			  text-align: right;
+		  }
+	  }
+  }
+  .search-form-box .drop-menu  {
+	  margin-top: 5px;
+	  border-radius: 3px;
+	  li {
+		padding: 15px 20px;
+		&:hover h5 {
+			color: var(--theme-color2);
+		}
+	  }
+  }
+  .search-form-box .form-control {
+	  padding-left: 20px;
+  }
+
+  .search-form-box.top-search .input-group input {
+    padding-left: 20px;
+    width: 59%;
+	font-size: 15px;
+	border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
