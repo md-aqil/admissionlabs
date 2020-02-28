@@ -622,16 +622,21 @@ html, body {
 }
 
 .footer-links h4 {
-  font-size: 20px;
   font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #fff;
 }
 
 .footer-links li a {
   text-decoration: none;
-  font-size: 14px;
   color: #fff;
   display: block;
   padding: 10px 0;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: left;
 }
 
 .footer-links li a:hover {
@@ -933,7 +938,7 @@ html, body {
   text-align: center;
   font-weight: 600;
   font-size: 14px;
-  padding: 12px 30px;
+  padding: 14px 30px;
   cursor: pointer;
 }
 
@@ -964,11 +969,15 @@ html, body {
 }
 
 .theme-bg-contaier .btn {
-  color: #333;
   width: 170px;
   font-size: 18px;
   text-transform: uppercase;
   white-space: nowrap;
+  font-size: 17.24px;
+  letter-spacing: 0.02em;
+  line-height: 14.78px;
+  text-align: center;
+  color: #212121;
 }
 
 .theme-bg-contaier .line {
