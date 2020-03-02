@@ -39,7 +39,20 @@
 	  transform: scale(1);
 	  transition-timing-function: cubic-bezier(0.680, 0, 0.265, 1);
   }
-
+  .s-tag {
+	width: 41px;
+	height: 36px;
+	background: transparent;
+	color: #212121;
+	border-radius: 3px;
+	background: var(--theme-color1);
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	margin-right: 20px;
+  }
   .suggestion-search-menu {
 	  .suggestion-anchor {
 		  text-decoration: none;
@@ -58,20 +71,7 @@
 			  margin: 0;
 			  text-align: left;
 		  }
-		  .s-tag {
-			width: 41px;
-			height: 41px;
-			background: transparent;
-			color: #212121;
-			border-radius: 3px;
-			background: var(--theme-color1);
-			text-align: center;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			font-weight: bold;
-			margin-right: 20px;
-		  }
+		 
 	  }
 	  .sright {
 		  text-align: right;
@@ -101,3 +101,80 @@
 	border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
+
+
+// dropdown
+
+
+h1, a, li {
+	font-family: Roboto, sans-serif;
+  }
+
+
+  a, li {
+	color: #6b6b6b;
+	text-decoration: none;
+  }
+.nav > li {
+	list-style: none;
+	float: left;
+	display: block;
+
+}
+  .nav > li a {
+   display: block;
+		padding: 13px 15px;
+	cursor: pointer;
+  }
+
+  .nav > li:hover, .open {
+
+  }
+
+  .drop {
+	position: relative;
+	cursor: pointer;
+  }
+  .drop .drop-menu {
+	
+	  width: 120px;
+	  background: #fff;
+	  z-index: 100;
+	  padding: 0;
+	  margin: 0;
+	  list-style: none;
+	position: absolute;
+	left: 0;
+	top: 3em;
+	-webkit-transition: all 0.2s cubic-bezier(0.680, 0, 0.265, 1);
+	transition: all 0.2s;
+	-webkit-transform: scale(0);
+			transform: scale(0);
+	-webkit-transform-origin: 0 0;
+			transform-origin:top left;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
+	padding: 12px 15px;
+	margin-left: 10px;
+  }
+
+  .drop .drop-menu li {
+	display: block;
+	width: 100%;
+	opacity: 0;
+	transform: translate(-20px, 0px);
+   
+  }
+  .drop.open .drop-menu li {
+	display: block;
+	 transition: all .4s;
+	opacity: 1;
+	transform: translate(0px, 0);
+	display: inline;
+  }
+  
+
+  .drop.open .drop-menu {
+	-webkit-transform: scale(1);
+	  transform: scale(1);
+	  transition-timing-function: cubic-bezier(0.680, 0, 0.265, 1);
+  }

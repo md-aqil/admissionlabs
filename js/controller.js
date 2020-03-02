@@ -1,4 +1,5 @@
 
+MicroModal.init();
 
   Splitting(); 
 
@@ -20,9 +21,16 @@ ScrollOut({
 
   ScrollOut({
 	targets: ".reveal-text",
-	
   });
-// ScrollOut();
+  ScrollOut({
+	targets: ".fade-in-left",
+  });
+  ScrollOut({
+	targets: ".fade-in-right",
+  });
+  ScrollOut({
+	targets: ".fade-in",
+  });
  
 var mySwiper = new Swiper('.swiper-container.hero-banner', {
   speed: 400,
@@ -100,17 +108,28 @@ $(this).css({
 });                  
 });
 
-
-
-
-
   
   var galleryThumbs = new Swiper('.gallery-thumbs', {
-	spaceBetween: 10,
-	slidesPerView: 4,
-	freeMode: true,
-	watchSlidesVisibility: true,
-	watchSlidesProgress: true,
+	effect: 'coverflow',
+	grabCursor: true,
+	centeredSlides: true,
+	slidesPerView: '3',
+	// coverflowEffect: {
+	//   rotate: 50,
+	//   stretch: 0,
+	//   depth: 100,
+	//   modifier: 1,
+	//   slideShadows : true,
+	// },
+	
+	coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 50,
+        modifier: 6,
+        slideShadows : false,
+	  },
+	  
   });
   
   
@@ -133,3 +152,35 @@ var galleryTop = new Swiper('.swiper-container.testimonial', {
   });
   
 
+  var galleryThumbss = new Swiper('.gallery-thumbs-search-single', {
+	spaceBetween: 15,
+	slidesPerView: 4,
+	freeMode: true,
+	watchSlidesVisibility: true,
+	watchSlidesProgress: true,
+  });
+  var galleryTops = new Swiper('.search-single', {
+	
+	navigation: {
+	  nextEl: '.swiper-button-next',
+	  prevEl: '.swiper-button-prev',
+	},
+	thumbs: {
+	  swiper: galleryThumbss
+	}
+  });
+  
+  $('.drop').click(function () {
+	$(this).toggleClass('open').siblings().removeClass('open');
+})
+
+$('.drop-menu li').each(function() {
+var delay = $(this).index() * 100 + 'ms';
+
+$(this).css({
+	'-webkit-transition-delay': delay,
+	'-moz-transition-delay': delay,
+	'-o-transition-delay': delay,
+	'transition-delay': delay
+});                  
+});
