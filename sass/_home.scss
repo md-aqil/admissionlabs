@@ -44,50 +44,6 @@ html,body {
 	color: #fff;
 }
 
-.btn-outline-white {
-	color: #fff;
-	background-color: rgba(255, 255, 255, 0.10);
-	background-image: none;
-	border-width: 2px;
-	border-color: #fff;
-	font-weight: 500;
-	transition: all .2s;
-  }
-  .btn-outline-white:hover {
-	background-color:#fff;
-	color: var(--text-dark);
-  }
-  .btn-outline-blue {
-	color: var(--theme-color2);
-	background-image: none;
-	border-width: 2px;
-	border-color: var(--theme-color2);
-	font-weight: 500;
-	transition: all .2s;
-  }
-  .btn-outline-blue:hover {
-	background-color:var(--theme-color2);
-	color: #fff;
-  }
-  
-  .btn-primary {
-	  color: var(--text-dark);
-	  background: var(--theme-color1);
-	  border-width: 2px;
-	  border-color:var(--theme-color1);
-  }
-  .btn-primary:hover {
-	color: var(--text-dark);
-	background: var(--theme-color1);
-	border-color:var(--theme-color1);
-  }
- 
-.c-container {
-	margin: auto;
-    width: 93%;
-   position: relative;
-z-index: 1;
-}
 .heading {
 	font-size: 30px;
 }
@@ -130,7 +86,6 @@ text-align: center;
 	margin: 40px auto;
   }
   .ui-select {
-	  width: 243px !important;
 	  position: relative;
 	width:100%;
 	background:#fff;
@@ -147,6 +102,7 @@ text-align: center;
     padding-right: 35px;
     padding-left: 25px;  
   }
+  
   .ui-select ul {
 	  list-style: none;
 	  padding: 0;margin: 0;
@@ -304,16 +260,7 @@ text-align: center;
 		bottom: -15px;
 	  }
   }
-  .spacer {
-	  padding-top: 50px;
-	  padding-bottom: 50px;
-  }
-  .spacer-top {
-	padding-top: 50px;
-}
-.spacer-bottom {
-	padding-bottom: 50px;
-}
+ 
   .features-list {
 	list-style: none;
 	  .media:nth-child(even) {
@@ -602,39 +549,6 @@ color: #fff;
     justify-content: center;
 }
 
-
-.a-center {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.control-label {
-	font-weight: 500;
-	font-size: 12px;
-	line-height: 14.94px;
-	text-align: left;
-	color: #666;
-	text-transform: uppercase;
-	margin-bottom: 15px;
-}
-.form-control {
-	height: 43px;
-    border-radius: 4px;
-    background: #fff;
-    border: 1px solid #ccc;
-    width: 100%;
-    padding: 15px;
-    font-size: 14px;
-
-}
-.form-group {
-	margin-bottom: 20px;
-}
-.form-control:focus {
-	outline: none;
-	border-color: var(--theme-color1);
-}
 .c-selecet {
 	.ui-select {
 		height: 43px;
@@ -682,10 +596,6 @@ color: #fff;
 			transform: translateY(0) scale(1);
 }
 
-  
-.h100 {
-	height: 100%;
-}
 .sbs-form .form-control{
 	background: #F0F0F0;
 	height: 100%;
@@ -999,10 +909,6 @@ text-align: left;
 	}
 }
 
-.spacer-30 {
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
 
 .tc-label {
 	color: #00796b !important;
@@ -1033,9 +939,14 @@ text-align: left;
 	margin-top: 35px;
 	margin-bottom: 25px;
 }
-
-.fz-17 {
-	font-size: 17px !important;
+.fill-full {
+	margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: -50px;
+	margin-right: -50px;
+	height: 1px;
+	background-color: #ccc;
+	border: none;
 }
 .btn-list {
 	margin-top: 20px;
@@ -1120,7 +1031,7 @@ text-align: left;
 		font-weight: normal;
 		font-size: 14px;
 		letter-spacing: 0.02em;
-
+		color: #fff;
 	}
 	p {
 		font-weight: 300;
@@ -1164,32 +1075,7 @@ text-align: left;
 
 	}
 }
-h4 {
-	margin: 0;
-	font-size: 18px;
-	font-weight: bold;
-	color: #212121;
-}
-.mb20 ,.mb-20 {
-	margin-bottom: 20px !important;
-}
 
-.mt20 ,.mt-20 {
-	margin-top: 20px !important;
-}
-.mb10 ,.mb-10 {
-	margin-bottom: 10px !important;
-}
-.mb15 ,.mb-15 {
-	margin-bottom: 15px;
-}
-
-.mr15 ,.mr-15 {
-	margin-right: 15px;
-}
-.mb30 ,.mb-30 {
-	margin-bottom: 30px !important;
-}
 .light-row td {
 	font-weight: normal;
 	font-size: 14px;
@@ -1218,3 +1104,173 @@ h4 {
 	}
 }
 							
+.text-white {
+color: #fff;
+}
+.offer-box {
+	width: 237px;
+	
+	height: 336px;
+	border-radius: 4px;
+	background: #00796b;
+	box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
+	flex-shrink: 0;
+	padding: 20px;
+	
+	.border-box {
+		border-radius: 14px;
+		background: rgba(0, 0, 0, 0.14);
+		border: 2px dashed #fff;
+		width: 100%;
+		text-align: center;
+		padding: 15px;
+	}
+}
+
+.slider-main-offer {
+	padding-right: 0;
+	width: 680px;
+}
+.slider-main-offer {
+	.search-single  .swiper-slide {
+		width: 100%;
+		height: 336px !important;
+	}
+}
+.round-label {
+	border-radius: 42px;
+    background: #cd7f32;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+
+}
+
+.pop-heading {
+	font-weight: 900;
+	font-size: 32px;
+	color: #fff;
+	span {
+		font-size: 22px;
+		font-weight: 300;
+	}
+}
+.expire {
+	color: #fff;
+	span {
+		font-weight: 300;
+		font-size: 12px;
+		line-height: 21px;
+		
+	}
+}
+
+.add-newtext {
+	color: var(--theme-color2);
+    font-weight: bold;
+    text-decoration: none;
+    border-left: 2px solid #CDCDCD;
+    margin-left: 30px;
+    padding: 12px 20px;
+}
+
+.reg-imgbox {
+	height: 737px;
+	width: 100%;
+	position: relative;
+	.logo {
+		width: 300px;
+    display: block;
+    margin: auto;
+	}
+	.reg-nav {
+		width: 100%;
+		height: 67px;
+		background: hsla(0, 0%, 100%, 0.09);
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		.list-inline {
+			height: 100%;
+			align-items: center;
+			justify-content: center;
+			li {
+				margin-left: 22px;
+    			margin-right: 22px;
+			}
+			 a {
+				color: #fff;
+				font-size: 13px;
+				&:hover {
+					color: var(--theme-color1);
+				}
+			}
+		}
+	}
+	.overlay {
+		background: #0000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+	}
+	img {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.radio-inline label {
+	font-size: 14px;
+}
+
+.s-mobile .ui-select{
+	width: 90px !important;
+    margin-right: 10px;
+}
+
+.steps {
+	display: flex;
+	margin-bottom: 30px;
+	.step-line {
+		width: 72px;
+		height: 7px;
+		border-radius: 3.5px;
+		background: #CCCCCC;
+		margin-right: 10px;
+		cursor: pointer;
+		&.active {
+			background: var(--theme-color2);
+		}
+	}
+}
+
+.btns-c-end {
+	position: absolute;
+    bottom: 40px;
+    justify-content: space-between;
+    width: 87.6%;
+	margin: auto;
+	display: flex;
+}
+
+.top-search {
+	.ui-select  {
+		width: 238px;
+	}
+	span {
+		font-size: 14px;
+		color: #212121 !important;
+	}
+}
+.goback {
+	display: block;
+}
+
+.r-margin-15 .r-layout img{
+	margin-right: 15px;
+}

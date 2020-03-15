@@ -155,3 +155,22 @@
 	  width: 100%;
 	  padding: 30px 45px;
   }
+  
+  .modal__content.fixed-left {
+	  .reg-imgbox {
+		  height: 815px;
+		  img {
+			  object-fit: cover;
+		  }
+	  }
+  }
+  
+  .modal-close-button:before {
+	content: '';
+    background: url(../img/icons/close-icon.png) no-repeat center;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    left: 11.5px;
+    top: 11px;
+  }

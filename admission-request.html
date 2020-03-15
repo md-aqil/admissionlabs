@@ -132,10 +132,10 @@
 			<div class="nav-items">
 					<ul class="second-nav">
 						<li class="nav-item">
-						<a class="nav-link " href="admission-request.html">ADMISSION REQUESTS </a>
+						<a class="nav-link active" href="admission-request.html">ADMISSION REQUESTS </a>
 						</li>
 						<li class="nav-item">
-						<a class="nav-link active" href="recent-admission.html">RECENT ADMISSIONS</a>
+						<a class="nav-link " href="recent-admission.html">RECENT ADMISSIONS</a>
 						</li>
 					</ul>
 					</div>
@@ -166,8 +166,8 @@
 					<div class="card-view">
 							<div class="r-layout">
 									<div>
-											<img src="img/icons/user-avatar.png" alt="">
-										</div>
+										<img src="img/icons/user-avatar.png" alt="">
+									</div>
 									<div class="r-content">
 										
 										<h4 class="title fz-17">Namit Bhati</h4>
@@ -179,7 +179,10 @@
 											<li>Admission Date : <span>15/02/2020</span></li>
 											
 										</ul>
-										
+										<div class="btn-list">
+												<button class="btn btn-outline-blue" data-micromodal-trigger="modal-student-profile">DETAILS</button>
+												<button class="btn btn-primary">APPROVE</button>
+										</div>
 									</div>
 							</div>
 					</div>
@@ -201,7 +204,10 @@
 											<li>Admission Date : <span>15/02/2020</span></li>
 											
 										</ul>
-									
+										<div class="btn-list">
+												<button class="btn btn-outline-blue">DETAILS</button>
+												<button class="btn btn-primary">APPROVE</button>
+										</div>
 									</div>
 							</div>
 					</div>
@@ -223,7 +229,10 @@
 											<li>Admission Date : <span>15/02/2020</span></li>
 											
 										</ul>
-										
+										<div class="btn-list">
+												<button class="btn btn-outline-blue">DETAILS</button>
+												<button class="btn btn-primary">APPROVE</button>
+										</div>
 									</div>
 							</div>
 					</div>
@@ -247,7 +256,10 @@
 												<li>Admission Date : <span>15/02/2020</span></li>
 												
 											</ul>
-										
+											<div class="btn-list">
+													<button class="btn btn-outline-blue">DETAILS</button>
+													<button class="btn btn-primary">APPROVE</button>
+											</div>
 										</div>
 								</div>
 						</div>
@@ -269,7 +281,10 @@
 												<li>Admission Date : <span>15/02/2020</span></li>
 												
 											</ul>
-										
+											<div class="btn-list">
+													<button class="btn btn-outline-blue">DETAILS</button>
+													<button class="btn btn-primary">APPROVE</button>
+											</div>
 										</div>
 								</div>
 						</div>
@@ -291,7 +306,10 @@
 												<li>Admission Date : <span>15/02/2020</span></li>
 												
 											</ul>
-											
+											<div class="btn-list">
+													<button class="btn btn-outline-blue">DETAILS</button>
+													<button class="btn btn-primary">APPROVE</button>
+											</div>
 										</div>
 								</div>
 						</div>
@@ -404,6 +422,159 @@
 	</footer>
 
 		  
+<div class="modal micromodal-slide" id="modal-student-profile" aria-hidden="true">
+	<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+	  <div class="modal__container modal-xl" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+			<div class="modal-close-button close modal__close" data-micromodal-close>
+					<img src="img/icons/close-icon.png" alt="">
+				</div>
+				<h4 class="mb20">Student Details</h4>
+				<section class="flex-box">
+					<aside class="mr-15">
+						<img src="img/icons/user-avatar.png" alt="">
+					</aside>
+					<main class="modal__content" id="modal-1-content">
+					
+							<div class="flex-row">
+									<div class="flex-col">
+											<div class="card-view">
+													<div class="r-layout">
+															<div class="r-content no-margin width100">
+																<h4 class="title mb10">Namit Bhati</h4>
+																<table class="width100" style="table-layout: fixed;">
+																	<tr class="light-row">
+																		<td>Father's Name</td>
+																		<td>Course</td>
+																		<td>Branch</td>
+																	</tr>
+																	<tr class="dark-row">
+																			<td>Karamveer Bhati</td>
+																			<td>B.Tech</td>
+																			<td>Computer Science</td>
+																		</tr>
+																		
+																		<tr style="height: 40px;"></tr>
+																		<tr class="light-row">
+																				<td>City</td>
+																				<td>State</td>
+																			</tr>
+																			<tr class="dark-row">
+																					<td>Jaipur</td>
+																					<td>Rajasthan</td>
+																				</tr>
+																</table>
+															</div>
+													</div>
+											</div>
+									</div>
+									<div class="flex-col">
+											<div class="card-view">
+													<div class="r-layout">
+															<div class="r-content no-margin width100">
+																<section>
+																<h4 class="title line sg left">Academic Details</h4>
+																<table class="width100" style="table-layout: fixed;">
+																	<tr class="light-row">
+																		<td>Father's Name</td>
+																		<td>Course</td>
+																		<td>Branch</td>
+																	</tr>
+																	<tr class="dark-row">
+																			<td>Karamveer Bhati</td>
+																			<td>B.Tech</td>
+																			<td>Computer Science</td>
+																		</tr>
+																		
+																		<tr style="height: 40px;"></tr>
+																		<tr class="light-row">
+																				<td>City</td>
+																				<td>State</td>
+																			</tr>
+																			<tr class="dark-row">
+																					<td>Jaipur</td>
+																					<td>Rajasthan</td>
+																				</tr>
+																</table>
+															</section>
+															
+															</div>
+													</div>
+											</div>
+									</div>
+								</div>
+								
+								<section>
+										<div class="stitle small mt-20">
+												<h3 class="title-sm left label-title line">Supporting Documents <div class="label">6</div></h3>
+											</div>
+											<div class="flex-row">
+													<div class="flex-col">
+															<div class="card-view">
+																	<div class="r-layout">
+																			<div>
+																					<img src="img/pdf.png" alt="">
+																				</div>
+																			<div class="r-content">
+																			
+																				<ul class="flist">
+																					<li class="text-dark bold">Address Proof<span class="text-theme2">.pdf</span></li>
+																					<li class="text-muted mt-20">805 KB</li>
+																					<li class="text-theme2 bold">Download <img src="img/icons/download.png" alt=""></li>
+																				</ul>
+																			
+																			</div>
+																	</div>
+															</div>
+													</div>
+													<div class="flex-col">
+															<div class="card-view">
+																	<div class="r-layout">
+																			<div>
+																					<img src="img/pdf.png" alt="">
+																				</div>
+																			<div class="r-content">
+																			
+																				<ul class="flist">
+																					<li class="text-dark bold">Address Proof<span class="text-theme2">.pdf</span></li>
+																					<li class="text-muted mt-20">805 KB</li>
+																					<li class="text-theme2 bold">Download <img src="img/icons/download.png" alt=""></li>
+																				</ul>
+																			
+																			</div>
+																	</div>
+															</div>
+													</div>
+													<div class="flex-col">
+															<div class="card-view">
+																	<div class="r-layout">
+																			<div>
+																					<img src="img/pdf.png" alt="">
+																				</div>
+																			<div class="r-content">
+																			
+																				<ul class="flist">
+																					<li class="text-dark bold">Address Proof<span class="text-theme2">.pdf</span></li>
+																					<li class="text-muted mt-20">805 KB</li>
+																					<li class="text-theme2 bold">Download <img src="img/icons/download.png" alt=""></li>
+																				</ul>
+																			
+																			</div>
+																	</div>
+															</div>
+													</div>
+												</div>
+								</section>
+								<div class="btn-list text-right">
+										<button class="btn btn-outline-blue" data-micromodal-close>BACK</button>
+										<button class="btn btn-primary">APPROVE</button>
+								</div>
+					</main>
+				</section>
+		
+			
+	  </div>
+	</div>
+</div>
 	  
 	<script src="js/jQuery.min.js"></script>
 	<script src="js/scroll-out.js"></script>

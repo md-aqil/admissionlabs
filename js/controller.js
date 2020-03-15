@@ -31,7 +31,10 @@ ScrollOut({
   ScrollOut({
 	targets: ".fade-in",
   });
- 
+  ScrollOut({
+	targets: ".target-this",
+  });
+  
 var mySwiper = new Swiper('.swiper-container.hero-banner', {
   speed: 400,
   spaceBetween: 50,
@@ -183,4 +186,9 @@ $(this).css({
 	'-o-transition-delay': delay,
 	'transition-delay': delay
 });                  
+});
+
+$('.accordian .accordian-title').click(function() {
+	$(this).parent('li').toggleClass('active');
+	$(this).parents('li').find('.ac-detail-item').slideToggle();
 });

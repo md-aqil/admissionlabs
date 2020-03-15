@@ -15,6 +15,7 @@ body {
 	--text-fontsize:16px;
 	--heading: font-size:30px;
 }
+
 [data-scroll="in"].reveal-text,
 [data-scroll="in"].reveal-text::after {
 	-webkit-animation-delay: .1s;

@@ -11,16 +11,214 @@
 	<link rel="stylesheet" href="css/master.css">
 	<link rel="stylesheet" href="css/extra.css">
 	<title>Document</title>
+	<style>
+		.btc {
+			padding: 30px;
+		}
+		.btc .btn {
+			margin: 10px;
+			display: inline-block;
+		}
+	</style>
 </head>
 <body>
 
  
  <!-- Modal1 -->
-	<button data-micromodal-trigger="modal-1">open me</button>
-	<button data-micromodal-trigger="modal-2">open me</button>
-	<button data-micromodal-trigger="modal-3">open me</button>
+ <section class="c-container bg-gray spacer btc">
+		<h1>Modals</h1>
+			<button class="btn btn-primary" data-micromodal-trigger="modal-1">modal-1</button>
+			<button  class="btn btn-primary" data-micromodal-trigger="modal-2">modal-2</button>
+			<button  class="btn btn-primary" data-micromodal-trigger="modal-3">modal-3</button>
+			<button  class="btn btn-primary" data-micromodal-trigger="modal-4">modal-4</button>
+			<button  class="btn btn-primary" data-micromodal-trigger="login_all">login_all</button>
+			<button  class="btn btn-primary" data-micromodal-trigger="student-login">student-login</button>
+			<button  class="btn btn-primary" data-micromodal-trigger="institution-login">institution-login</button>
+			<button class="btn btn-primary" data-micromodal-trigger="AdmissionCouncellorLogin">AdmissionCouncellorLogin</button>
+			<button class="btn btn-primary" data-micromodal-trigger="ConsultancyLogin">ConsultancyLogin</button>
+			<button class="btn btn-primary" data-micromodal-trigger="admin-login">Admin Login</button>
+			<button class="btn btn-primary" data-micromodal-trigger="StudentsRegistration">Students Registration</button>
+			<button class="btn btn-primary" data-micromodal-trigger="AddMoreDetails">Add More Details</button>
+			<button class="btn btn-primary" data-micromodal-trigger="AddMoreDetailsstep2">Add More Details step 2</button>
+			<button class="btn btn-primary" data-micromodal-trigger="pop-up-message">pop-up-message</button>
+			<button class="btn btn-primary" data-micromodal-trigger="newcoursePopup">new course Popup</button>
+			<button class="btn btn-primary" data-micromodal-trigger="CourseAdded">Course Added</button>
+			<button class="btn btn-primary" data-micromodal-trigger="modal-student-profile">modal-student-profile</button>
+			
+			
+	</section>
+	<section class="c-container bg-gray spacer btc mt-40">
+			<h1>Page Links</h1>
+				<a class="btn btn-primary" href="index.html" target="_blank">Home</a>
+				<a class="btn btn-primary" href="about-us.html" target="_blank">About Us</a>
+				<a class="btn btn-primary" href="dashboard.html" target="_blank">dashboard</a>
+				<a class="btn btn-primary" href="our-events.html" target="_blank">Our Events</a>
+				<a class="btn btn-primary" href="recent-admission.html" target="_blank">recent-admission</a>
+				<a class="btn btn-primary" href="scholarships.html" target="_blank">scholarships</a>
+				<a class="btn btn-primary" href="SearchResultsView.html" target="_blank">SearchResultsView</a>
+				<a class="btn btn-primary" href="Searchsingle.html" target="_blank">Searchsingle</a>
+				<a class="btn btn-primary" href="admission-request.html" target="_blank">admission-request</a>
+				<a class="btn btn-primary" href="timeline.html" target="_blank">timeline</a>	
+				<a class="btn btn-primary" href="View_Premium_Dashboard_MyProfile.html" target="_blank">View_Premium_Dashboard_MyProfile</a>				
+							
+				
+		</section>
 	
 	
+		  
+<div class="modal micromodal-slide" id="modal-student-profile" aria-hidden="true">
+	<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+	  <div class="modal__container modal-xl" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+			<div class="modal-close-button close modal__close" data-micromodal-close>
+				</div>
+				<h4 class="mb20">Student Details</h4>
+				<section class="flex-box">
+					<aside class="mr-15">
+						<img src="img/icons/user-avatar.png" alt="">
+					</aside>
+					<main class="modal__content r-margin-15" id="modal-1-content">
+					
+							<div class="flex-row">
+									<div class="flex-col">
+											<div class="card-view">
+													<div class="r-layout">
+															<div class="r-content no-margin width100">
+																<h4 class="title mb10">Namit Bhati</h4>
+																<table class="width100" style="table-layout: fixed;">
+																	<tr class="light-row">
+																		<td>Father's Name</td>
+																		<td>Course</td>
+																		<td>Branch</td>
+																	</tr>
+																	<tr class="dark-row">
+																			<td>Karamveer Bhati</td>
+																			<td>B.Tech</td>
+																			<td>Computer Science</td>
+																		</tr>
+																		
+																		<tr style="height: 40px;"></tr>
+																		<tr class="light-row">
+																				<td>City</td>
+																				<td>State</td>
+																			</tr>
+																			<tr class="dark-row">
+																					<td>Jaipur</td>
+																					<td>Rajasthan</td>
+																				</tr>
+																</table>
+															</div>
+													</div>
+											</div>
+									</div>
+									<div class="flex-col">
+											<div class="card-view">
+													<div class="r-layout">
+															<div class="r-content no-margin width100">
+																<section>
+																<h4 class="title line sg left">Academic Details</h4>
+																<table class="width100" style="table-layout: fixed;">
+																	<tr class="light-row">
+																		<td>Father's Name</td>
+																		<td>Course</td>
+																		<td>Branch</td>
+																	</tr>
+																	<tr class="dark-row">
+																			<td>Karamveer Bhati</td>
+																			<td>B.Tech</td>
+																			<td>Computer Science</td>
+																		</tr>
+																		
+																		<tr style="height: 40px;"></tr>
+																		<tr class="light-row">
+																				<td>City</td>
+																				<td>State</td>
+																			</tr>
+																			<tr class="dark-row">
+																					<td>Jaipur</td>
+																					<td>Rajasthan</td>
+																				</tr>
+																</table>
+															</section>
+															
+															</div>
+													</div>
+											</div>
+									</div>
+								</div>
+								
+								<section>
+										<div class="stitle small mt-20">
+												<h3 class="title-sm left label-title line">Supporting Documents <div class="label">6</div></h3>
+											</div>
+											<div class="flex-row">
+													<div class="flex-col">
+															<div class="card-view">
+																	<div class="r-layout">
+																			<div>
+																					<img src="img/pdf.png" alt="">
+																				</div>
+																			<div class="r-content">
+																			
+																				<ul class="flist">
+																					<li class="text-dark bold">Address Proof<span class="text-theme2">.pdf</span></li>
+																					<li class="text-muted mt-20">805 KB</li>
+																					<li class="text-theme2 bold">Download <img src="img/icons/download.png" alt=""></li>
+																				</ul>
+																			
+																			</div>
+																	</div>
+															</div>
+													</div>
+													<div class="flex-col">
+															<div class="card-view">
+																	<div class="r-layout">
+																			<div>
+																					<img src="img/pdf.png" alt="">
+																				</div>
+																			<div class="r-content">
+																			
+																				<ul class="flist">
+																					<li class="text-dark bold">Address Proof<span class="text-theme2">.pdf</span></li>
+																					<li class="text-muted mt-20">805 KB</li>
+																					<li class="text-theme2 bold">Download <img src="img/icons/download.png" alt=""></li>
+																				</ul>
+																			
+																			</div>
+																	</div>
+															</div>
+													</div>
+													<div class="flex-col">
+															<div class="card-view">
+																	<div class="r-layout">
+																			<div>
+																					<img src="img/pdf.png" alt="">
+																				</div>
+																			<div class="r-content">
+																			
+																				<ul class="flist">
+																					<li class="text-dark bold">Address Proof<span class="text-theme2">.pdf</span></li>
+																					<li class="text-muted mt-20">805 KB</li>
+																					<li class="text-theme2 bold">Download <img src="img/icons/download.png" alt=""></li>
+																				</ul>
+																			
+																			</div>
+																	</div>
+															</div>
+													</div>
+												</div>
+								</section>
+								<div class="btn-list text-right">
+										<button class="btn btn-outline-blue" data-micromodal-close>BACK</button>
+										<button class="btn btn-primary">APPROVE</button>
+								</div>
+					</main>
+				</section>
+		
+			
+	  </div>
+	</div>
+</div>
+
 	<div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
 			<div class="modal__overlay" tabindex="-1" data-micromodal-close>
 			  <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
@@ -32,7 +230,6 @@
 				<main class="modal__content" id="modal-1-content">
 						<div class="flex-row">
 								<div class="flex-col a-center ">
-									
 									<img class="spacer" src="img/art1.png" alt="">
 								</div>
 								<div class="flex-col mr-content">
@@ -72,17 +269,14 @@
 					</div>
 				</header>
 				<main class="modal__content" id="modal-1-content">
-							<div class="modal__row">
-									<div class="col-md-6 a-center">
-										<img src="img/pop2art" alt="">
+							<div class="modal__row flex-row">
+									<div class="flex-col-6 a-center spacer">
+										<img src="img/pop2art.png" alt="">
 									</div>
-									<div class="col-md-6 mr-content ">
-										<div class="modal-close-button close" data-dismiss="modal">
-											<img src="img/icons/close-icon.png" alt="">
-										</div>
-										<h2 class="bold">Do you need help to
+									<div class="flex-col-6 mr-content padding-50">
+										<h3 class="bold">Do you need help to
 											find best institutions
-											for admission ?</h2>
+											for admission ?</h3>
 										<ul class="icons-list">
 												<li><a href="">Yes, Help me
 													<img src="img/icons/long-arrow-right.png" alt="">
@@ -101,54 +295,57 @@
 			  </div>
 			</div>
 	</div>
+	
 	<div class="modal micromodal-slide" id="modal-3" aria-hidden="true">
 			<div class="modal__overlay" tabindex="-1" data-micromodal-close>
-			  <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+			  <div class="modal__container modal-sm" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
 				<header class="modal__header">
 				  <div class="modal-close-button close modal__close" data-micromodal-close>
 						<img src="img/icons/close-icon.png" alt="">
 					</div>
 				</header>
 				<main class="modal__content" id="modal-1-content">
-						<h4 class="bold mb-5">Please fill some basic details, so that we can<br>
-							recommend best Institutions</h4>
-							<div class="row">
-								<div class="col-md-6">
-									<div class="form-group c-selecet">
-										<label for="" class="control-label">Select Education Level</label>
-										 <select name="" id="" class="form-control ">
-											 <option value="">Select Level</option>
-											 <option value="">Select Level2</option>
-										 </select>
+					<div class="pbox-40">
+							<h4 class="bold mb-30">Please fill some basic details, so that we can<br>
+								recommend best Institutions</h4>
+								<div class="flex-row">
+									<div class="flex-col-6">
+										<div class="form-group c-selecet">
+											<label for="" class="control-label">Select Education Level</label>
+											 <select name="" id="" class="form-control ">
+												 <option value="">Select Level</option>
+												 <option value="">Select Level2</option>
+											 </select>
+										</div>
+									</div>
+									<div class="flex-col-6">
+										<div class="form-group c-selecet">
+											<label for="" class="control-label">Qualifying Exam Percentage</label>
+											 <input type="text" class="form-control" placeholder="Enter institution name">
+										</div>
 									</div>
 								</div>
-								<div class="col-md-6">
-									<div class="form-group c-selecet">
-										<label for="" class="control-label">Qualifying Exam Percentage</label>
-										 <input type="text" class="form-control" placeholder="Enter institution name">
+								<div class="flex-row mt-10">
+									<div class="flex-col-6">
+										<div class="form-group c-selecet">
+											<label for="" class="control-label">Your Desired Field</label>
+											<input type="text" class="form-control" placeholder="Enter Field">
+				
+										</div>
+									</div>
+									<div class="flex-col-6">
+										<div class="form-group c-selecet">
+											<label for="" class="control-label">Location</label>
+											 <input type="text" class="form-control" placeholder="Enter City Name">
+										</div>
 									</div>
 								</div>
-							</div>
-							<div class="row mt-4">
-								<div class="col-md-6">
-									<div class="form-group c-selecet">
-										<label for="" class="control-label">Your Desired Field</label>
-										<input type="text" class="form-control" placeholder="Enter Field">
-			
-									</div>
+								<div class="mt-30 text-center">
+									<button class="btn btn-outline-blue btn-lg mr-3" style="width:170px">RESET</button>
+									<button class="btn btn-primary btn-lg">SHOW RESULTS</button>
 								</div>
-								<div class="col-md-6">
-									<div class="form-group c-selecet">
-										<label for="" class="control-label">Location</label>
-										 <input type="text" class="form-control" placeholder="Enter City Name">
-									</div>
-								</div>
-							</div>
-							<div class="mt-5 text-center">
-								<button class="btn btn-outline-blue btn-lg mr-3" style="width:170px">RESET</button>
-								<button class="btn btn-primary btn-lg">SHOW RESULTS</button>
-								
-							</div>
+					</div>
+						
 				</main>
 				
 			  </div>
@@ -157,79 +354,912 @@
 	
 	<div class="modal micromodal-slide" id="modal-4" aria-hidden="true">
 			<div class="modal__overlay" tabindex="-1" data-micromodal-close>
-			  <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+			  <div class="modal__container modal-sm" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
 				<header class="modal__header">
 				  <div class="modal-close-button close modal__close" data-micromodal-close>
 						<img src="img/icons/close-icon.png" alt="">
 					</div>
 				</header>
 				<main class="modal__content" id="modal-1-content">
-						<div class="row ">
-								<div class="col-md-6 a-center spacer">
-									<img src="img/pop2art" alt="">
-								</div>
-								<div class="col-md-6 mr-content ">
-									<div class="modal-close-button close" data-dismiss="modal">
-										<img src="img/icons/close-icon.png" alt="">
-									</div>
-									<h2 class="bold">Do you need help to
-									find best coaching
-									institution for admission ?</h2>
-									<ul class="icons-list">
-											<li><a href="">Yes, Help me
-												<img src="img/icons/long-arrow-right.png" alt="">
-											</a></li>
-											<li>
-												<a href="">No, I know already
-														<img src="img/icons/long-arrow-right.png" alt="">
-												</a></li>
-										</ul>
-								</div>
-								
-								
-							</div>
-				</main>
-				
-			  </div>
-			</div>
-	</div>
-
-	<div class="modal micromodal-slide" id="modal-5" aria-hidden="true">
-			<div class="modal__overlay" tabindex="-1" data-micromodal-close>
-			  <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
-				<header class="modal__header">
-				  <div class="modal-close-button close modal__close" data-micromodal-close>
-						<img src="img/icons/close-icon.png" alt="">
-					</div>
-				</header>
-				<main class="modal__content" id="modal-1-content">
-						<h4 class="bold mb-5">Please fill some basic details, so that we can
+				<div class="pbox-40">
+						<h4 class="bold mb-30">Please fill some basic details, so that we can
 								recommend best consultancy</h4>
+								<div class="form-group">
+										<label for="" class="control-label">Enter course name</label>
+										 <input type="text" class="form-control" placeholder="Enter Course Name">
+									</div>
+							<div class="mt-30 text-center">
+								<button class="btn btn-outline-blue btn-lg mr-3" style="width:170px">RESET</button>
+								<button class="btn btn-primary btn-lg">SHOW RESULTS</button>
+							</div>
+				</div>
+					
 												
-													<div class="form-group">
-															<label for="" class="control-label">Enter course name</label>
-															 <input type="text" class="form-control" placeholder="Enter Course Name">
-														</div>
-												<div class="mt-5 text-center">
-													<button class="btn btn-outline-blue btn-lg mr-3" style="width:170px">RESET</button>
-													<button class="btn btn-primary btn-lg">SHOW RESULTS</button>
-												</div>
+												
 				</main>
 				
 			  </div>
 			</div>
 	</div>
-
-
-
-
-
-	  
+	
+	<div class="modal micromodal-slide" id="login_all" aria-hidden="true">
+			<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+			  <div class="modal__container modal-sm" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+				<header class="modal__header">
+				  <div class="modal-close-button close modal__close" data-micromodal-close>
+						<img src="img/icons/close-icon.png" alt="">
+					</div>
+				</header>
+				<main class="modal__content" id="modal-1-content">
+				<div class="pbox-50">
+					<div class="mb-40 text-center">
+							<h3 class="bold fz-22">Welcome,</h3>
+						<p class="fz-17 text-muted">Please select your <span class="text-dark">role</span> to continue <span class="text-dark">login</span></p>
+							
+					</div>
+						<div class="form-group">
+							<button class="btn btn-outline-blue btn-lg btn-block">STUDENTS</button>
+						</div>
+						<div class="form-group">
+							<button class="btn btn-outline-blue btn-lg btn-block">COLLEGES OR UNIVERSITY</button>
+						</div>
+						<div class="form-group">
+								<button class="btn btn-outline-blue btn-lg btn-block">ADMISION COUNCELLOR</button>
+							</div>
+							<div class="form-group">
+									<button class="btn btn-outline-blue btn-lg btn-block">CONSULTANCY</button>
+								</div>
+							<hr class="fill-full">
+							<button class="btn btn-primary btn-lg btn-block">ADMIN LOGIN</button>
+							
+				</div>
+					
+												
+												
+				</main>
+				
+			  </div>
+			</div>
+	</div>
+	
+	<!-- student-login -->
+	<div class="modal micromodal-slide" id="student-login" aria-hidden="true">
+			<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+			  <div class="modal__container modal-sm" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+				<header class="modal__header">
+				  <div class="modal-close-button close modal__close" data-micromodal-close>
+						<img src="img/icons/close-icon.png" alt="">
+					</div>
+					<img class="m-back" src="img/icons/logarrow-left-black.png" alt="">
+				</header>
+				<main class="modal__content" id="modal-1-content">
+				<div class="pbox-50">
+					<div class="mb-40 text-center">
+							<h3 class="bold fz-22">Student Login</h3>
+						<p class="fz-17 text-muted">Please <span class="text-dark">login</span> to continue your <span class="text-dark">account</span></p>
+					</div>
+					<div class="form-group add-icon">
+						<label for="" class="control-label sbold">EMAIL ADDRESS</label>
+						<input type="text" class="form-control" placeholder="Enter Course Name">
+						<img class="input-icon" src="img/icons/login.png" alt="">
+					</div>
+					
+					<div class="form-group add-icon">
+							<label for="" class="control-label sbold">PASSWORD</label>
+							<input type="password" class="form-control" placeholder="Enter Course Name">
+							<img class="input-icon" src="img/icons/lock.png" alt="">
+							<img class="input-icon right" src="img/icons/eye-close.png" alt="">
+						</div>
+						<div class="form-group mt-30">
+							<button class="btn btn-primary btn-lg btn-block">LOGIN</button>
+						</div>
+						<div class="flex-box space-between">
+							<label for="rm" class="text-muted">
+								<input id="rm" type="checkbox"> Remember Me
+							</label>
+							<p>Forgot Password?</p>
+						</div>
+						<p class="devider text-muted mt-40">
+							<span>Social login options</span>
+						</p>
+						<ul class="list-inline justify-center mt-30">
+							<li><img src="img/icons/facebook-c.png" alt=""></li>
+							<li><img src="img/icons/Google.png" alt=""></li>
+							<li><img src="img/icons/Instagram.png" alt=""></li>
+							<li><img src="img/icons/Linkdln.png" alt=""></li>
+						</ul>
+					<hr class="fill-full">
+					<p class="text-center" style="margin-bottom: -30px;
+					margin-top: -10px;">Don,t have an account ? <a href="" class="secondery-text bold">REGISTER</a> now</p>
+				</div>
+					
+												
+												
+				</main>
+				
+			  </div>
+			</div>
+	</div>
+	<!-- Institution Login -->
+	<div class="modal micromodal-slide" id="institution-login" aria-hidden="true">
+			<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+			  <div class="modal__container modal-sm" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+				<header class="modal__header">
+				  <div class="modal-close-button close modal__close" data-micromodal-close>
+						<img src="img/icons/close-icon.png" alt="">
+					</div>
+					<img class="m-back" src="img/icons/logarrow-left-black.png" alt="">
+				</header>
+				<main class="modal__content" id="modal-1-content">
+				<div class="pbox-50">
+					<div class="mb-40 text-center">
+							<h3 class="bold fz-22">Institution Login</h3>
+						<p class="fz-17 text-muted">Please <span class="text-dark">login</span> to continue your <span class="text-dark">account</span></p>
+					</div>
+					<div class="form-group add-icon">
+						<label for="" class="control-label sbold">EMAIL ADDRESS</label>
+						<input type="text" class="form-control" placeholder="Enter Course Name">
+						<img class="input-icon" src="img/icons/login.png" alt="">
+					</div>
+					
+					<div class="form-group add-icon">
+							<label for="" class="control-label sbold">PASSWORD</label>
+							<input type="password" class="form-control" placeholder="Enter Course Name">
+							<img class="input-icon" src="img/icons/lock.png" alt="">
+							<img class="input-icon right" src="img/icons/eye-close.png" alt="">
+						</div>
+						<div class="form-group mt-30">
+							<button class="btn btn-primary btn-lg btn-block">LOGIN</button>
+						</div>
+						<div class="flex-box space-between">
+							<label for="rm" class="text-muted">
+								<input id="rm" type="checkbox"> Remember Me
+							</label>
+							<p>Forgot Password?</p>
+						</div>
+					<div class="spacer-20"></div>
+					<hr class="fill-full">
+					<p class="text-center" style="margin-bottom: -30px;
+					margin-top: -10px;">Don,t have an account ? <a href="" class="secondery-text bold">REGISTER</a> now</p>
+				</div>
+					
+												
+												
+				</main>
+				
+			  </div>
+			</div>
+	</div>
+	<!-- Admission Councellor  Login -->
+	
+	<div class="modal micromodal-slide" id="AdmissionCouncellorLogin" aria-hidden="true">
+			<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+			  <div class="modal__container modal-sm" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+				<header class="modal__header">
+				  <div class="modal-close-button close modal__close" data-micromodal-close>
+						<img src="img/icons/close-icon.png" alt="">
+					</div>
+					<img class="m-back" src="img/icons/logarrow-left-black.png" alt="">
+				</header>
+				<main class="modal__content" id="modal-1-content">
+				<div class="pbox-50">
+					<div class="mb-40 text-center">
+							<h3 class="bold fz-22">Admission Councellor</h3>
+						<p class="fz-17 text-muted">Please <span class="text-dark">login</span> to continue your <span class="text-dark">account</span></p>
+					</div>
+					<div class="form-group add-icon">
+						<label for="" class="control-label sbold">EMAIL ADDRESS</label>
+						<input type="text" class="form-control" placeholder="Enter Course Name">
+						<img class="input-icon" src="img/icons/login.png" alt="">
+					</div>
+					
+					<div class="form-group add-icon">
+							<label for="" class="control-label sbold">PASSWORD</label>
+							<input type="password" class="form-control" placeholder="Enter Course Name">
+							<img class="input-icon" src="img/icons/lock.png" alt="">
+							<img class="input-icon right" src="img/icons/eye-close.png" alt="">
+						</div>
+						<div class="form-group mt-30">
+							<button class="btn btn-primary btn-lg btn-block">LOGIN</button>
+						</div>
+						<div class="flex-box space-between">
+							<label for="rm" class="text-muted">
+								<input id="rm" type="checkbox"> Remember Me
+							</label>
+							<p>Forgot Password?</p>
+						</div>
+					<div class="spacer-20"></div>
+					<hr class="fill-full">
+					<p class="text-center" style="margin-bottom: -30px;
+					margin-top: -10px;">Don,t have an account ? <a href="" class="secondery-text bold">REGISTER</a> now</p>
+				</div>
+					
+												
+												
+				</main>
+				
+			  </div>
+			</div>
+	</div>
+	<!-- Consultancy Login -->
+	<div class="modal micromodal-slide" id="ConsultancyLogin" aria-hidden="true">
+			<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+			  <div class="modal__container modal-sm" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+				<header class="modal__header">
+				  <div class="modal-close-button close modal__close" data-micromodal-close>
+						<img src="img/icons/close-icon.png" alt="">
+					</div>
+					<img class="m-back" src="img/icons/logarrow-left-black.png" alt="">
+				</header>
+				<main class="modal__content" id="modal-1-content">
+				<div class="pbox-50">
+					<div class="mb-40 text-center">
+							<h3 class="bold fz-22">Consultancy</h3>
+						<p class="fz-17 text-muted">Please <span class="text-dark">login</span> to continue your <span class="text-dark">account</span></p>
+					</div>
+					<div class="form-group add-icon">
+						<label for="" class="control-label sbold">EMAIL ADDRESS</label>
+						<input type="text" class="form-control" placeholder="Enter Course Name">
+						<img class="input-icon" src="img/icons/login.png" alt="">
+					</div>
+					
+					<div class="form-group add-icon">
+							<label for="" class="control-label sbold">PASSWORD</label>
+							<input type="password" class="form-control" placeholder="Enter Course Name">
+							<img class="input-icon" src="img/icons/lock.png" alt="">
+							<img class="input-icon right" src="img/icons/eye-close.png" alt="">
+						</div>
+						<div class="form-group mt-30">
+							<button class="btn btn-primary btn-lg btn-block">LOGIN</button>
+						</div>
+						<div class="flex-box space-between">
+							<label for="rm" class="text-muted">
+								<input id="rm" type="checkbox"> Remember Me
+							</label>
+							<p>Forgot Password?</p>
+						</div>
+					<div class="spacer-20"></div>
+					<hr class="fill-full">
+					<p class="text-center" style="margin-bottom: -30px;
+					margin-top: -10px;">Don,t have an account ? <a href="" class="secondery-text bold">REGISTER</a> now</p>
+				</div>
+					
+												
+												
+				</main>
+				
+			  </div>
+			</div>
+	</div>
+		<!-- Admin Login -->
+		<div class="modal micromodal-slide" id="admin-login" aria-hidden="true">
+				<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+				  <div class="modal__container modal-sm" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+					<header class="modal__header">
+					  <div class="modal-close-button close modal__close" data-micromodal-close>
+							<img src="img/icons/close-icon.png" alt="">
+						</div>
+						<img class="m-back" src="img/icons/logarrow-left-black.png" alt="">
+					</header>
+					<main class="modal__content" id="modal-1-content">
+					<div class="pbox-50">
+						<div class="mb-40 text-center">
+								<h3 class="bold fz-22">Admin Login</h3>
+							<p class="fz-17 text-muted">Please <span class="text-dark">login</span> to continue your <span class="text-dark">account</span></p>
+						</div>
+						<div class="form-group add-icon">
+							<label for="" class="control-label sbold">EMAIL ADDRESS</label>
+							<input type="text" class="form-control" placeholder="Enter Course Name">
+							<img class="input-icon" src="img/icons/login.png" alt="">
+						</div>
+						
+						<div class="form-group add-icon">
+								<label for="" class="control-label sbold">PASSWORD</label>
+								<input type="password" class="form-control" placeholder="Enter Course Name">
+								<img class="input-icon" src="img/icons/lock.png" alt="">
+								<img class="input-icon right" src="img/icons/eye-close.png" alt="">
+							</div>
+							<div class="form-group mt-30">
+								<button class="btn btn-primary btn-lg btn-block">LOGIN</button>
+							</div>
+							<div class="flex-box space-between">
+								<label for="rm" class="text-muted">
+									<input id="rm" type="checkbox"> Remember Me
+								</label>
+								<p>Forgot Password?</p>
+							</div>
+						<div class="spacer-20"></div>
+						<hr class="fill-full">
+						<p class="text-center" style="margin-bottom: -30px;
+						margin-top: -10px;">Don,t have an account ? <a href="" class="secondery-text bold">REGISTER</a> now</p>
+					</div>
+						
+													
+													
+					</main>
+					
+				  </div>
+				</div>
+		</div>
+		<!-- StudentsRegistration -->
+		<div class="modal micromodal-slide" id="StudentsRegistration" aria-hidden="true">
+				<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+				  <div class="modal__container modal-xl no-padding" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+					<header class="modal__header">
+					  <div class="modal-close-button close modal__close" data-micromodal-close>
+							<img src="img/icons/close-icon.png" alt="">
+						</div>
+					</header>
+					<main class="modal__content" id="modal-1-content">
+						<div class="flex-row no-margin">
+							<div class="flex-col-6 no-padding">
+								<div class="reg-imgbox">
+									<img src="img/regimg.png" alt="">
+									<div class="overlay">
+										<div style="margin-top: -67px;">
+											<img class="logo" src="img/logo2.png" alt="">
+										</div>
+									
+										<nav class="reg-nav">
+												<ul class="list-inline">
+														<li>
+															<a href="">ABOUT US</a>
+														</li>
+														<li>
+															<a href="">TERMS OF SERVICE</a>
+														</li>
+															<li><a href="">PRIVACY POLICY</a></li>
+															<li><a href="">CONTACT US</a></li>
+													</ul>
+										</nav>
+										
+									</div>
+								</div>
+							</div>
+							<div class="flex-col-6">
+								<div class="pbox-40">
+									<h3 class="line left mb-30">NEW USER REGISTRATION</h3>
+									<p class="text-muted fz-14">Please complete the <span class="text-dark">registration </span>to <span class="text-dark">create</span> your <span class="text-theme2 bold">AdmissionWeb</span> account!</p>
+										<div class="form-group  mt-30">
+											<p class="text-muted bold mb-15">SELECT ACCOUNT TYPE</p>
+											<ul class="list-inline radio-inline mb-30">
+												<li>
+														<input type="radio" id="male" name="gender" value="male" selected>
+														<label for="male">Student</label><br>
+												</li>
+													<li>
+															<input type="radio" id="female" name="gender" value="female">
+															<label for="female">College or Institution</label><br>
+													</li>
+													<li>
+															<input type="radio" id="other" name="gender" value="other">
+															<label for="other">Admission Councellor</label>
+														</li>
+														<li>
+																<input type="radio" id="other" name="gender" value="other">
+																<label for="other">Consultancy</label>
+															</li>
+											</ul>
+										</div>
+										<div class="flex-row">
+											<div class="flex-col-6">
+												<div class="form-group select-theme">
+													<label for="" class="control-label sbold">SELECT INSTITUTION TYPE</label>
+													<select name="" id="" class="custom-select">
+														<option value="">Select Type</option>
+														<option value="">Select one</option>
+													</select>
+												</div>
+											</div>
+											<div class="flex-col-6">
+												<div class="form-group">
+														<label for="" class="control-label sbold">INSTITUTION NAME</label>
+														<input type="text" class="form-control" placeholder="Enter Course Name">
+												</div>
+											</div>
+											<div class="flex-col-6">
+													<div class="form-group">
+															<label for="" class="control-label sbold">Enter institution name</label>
+															<input type="text" class="form-control" placeholder="Enter email address">
+													</div>
+												</div>
+												
+												<div class="flex-col-6">
+													<label for="" class="control-label sbold">MOBILE NUMBER</label>
+													<div class="flex-box">
+															<div class="form-group select-theme s-mobile">
+																	<select name="" id="" class="custom-select">
+																		<option value="">+91</option>
+																	</select>
+																</div>
+																<div class="form-group">
+																	<input type="text" class="form-control" placeholder="Mobile number">
+																</div>
+													</div>
+													
+													</div>
+													<div class="flex-col-6">
+															<div class="form-group add-icon-right">
+																	<label for="" class="control-label sbold">PASSWORD</label>
+																	<input type="password" class="form-control" placeholder="Password">
+																	<img class="input-icon right" src="img/icons/eye-close.png" alt="">
+																</div>
+													</div>
+													<div class="flex-col-6">
+															<div class="form-group add-icon-right">
+																	<label for="" class="control-label sbold">CONFIRM PASWORD</label>
+																	<input type="password" class="form-control" placeholder="Confirm Password">
+																	<img class="input-icon right" src="img/icons/eye-close.png" alt="">
+																</div>
+													</div>
+										</div>
+										<div class="form-group spacer-20">
+											<p class="text-muted">
+												<input type="checkbox">
+													I have aggred to the <a href="" class="text-theme2 bold">Terms of Sevice</a>  and <a href="" class="text-theme2 bold">Privacy Policy</a>
+											</p>
+										</div>
+										<div class="flex-box align-items-center">
+											<button class="btn btn-primary btn-lg mr-30">ADD DETAILS</button>
+											<p class="text-muted fz-14">Already have an account ? <a href="" class="text-theme2 bold">LOG IN</a> now</p>
+										</div>
+								</div>
+							</div>
+						</div>	
+					</main>
+					
+				  </div>
+				</div>
+		</div>
+		
+		
+		<!-- Add More Details -->
+		<div class="modal micromodal-slide" id="AddMoreDetails" aria-hidden="true">
+			<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+			  <div class="modal__container modal-xl no-padding" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+				<header class="modal__header">
+				  <div class="modal-close-button close modal__close" data-micromodal-close>
+						<!-- <img src="img/icons/close-icon.png" alt=""> -->
+					</div>
+				</header>
+				<main class="modal__content fixed-left" id="modal-1-content">
+					<div class="flex-row no-margin">
+						<div class="flex-col-6 no-padding">
+							<div class="reg-imgbox">
+								<img src="img/regimg.png" alt="">
+								<div class="overlay">
+									<div style="margin-top: -67px;">
+										<img class="logo" src="img/logo2.png" alt="">
+									</div>
+								
+									<nav class="reg-nav">
+											<ul class="list-inline">
+													<li>
+														<a href="">ABOUT US</a>
+													</li>
+													<li>
+														<a href="">TERMS OF SERVICE</a>
+													</li>
+														<li><a href="">PRIVACY POLICY</a></li>
+														<li><a href="">CONTACT US</a></li>
+												</ul>
+									</nav>
+									
+								</div>
+							</div>
+						</div>
+						<div class="flex-col-6">
+							<div class="pbox-40">
+								<h3 class="line left mb-30">Add More Details</h3>
+								<p class="text-muted fz-14">Please complete the <span class="text-dark">registration </span>to <span class="text-dark">create</span> your <span class="text-theme2 bold">AdmissionWeb</span> account!</p>
+									<div class="form-group  mt-30">
+										<p class="bold text-semidark fz-14 mb-15">STEP <span class="text-theme2">1</span> OF 2</p>
+										<div class="steps">
+											<div class="step-line active"></div>
+											<div class="step-line"></div>
+										</div>
+										
+									</div>
+									<div class="flex-row">
+											<div class="flex-col-6">
+													<div class="form-group">
+															<label for="" class="control-label sbold">CITY NAME</label>
+															<input type="text" class="form-control" placeholder="Enter city name...">
+													</div>
+												</div>
+												
+										<div class="flex-col-6">
+											<div class="form-group select-theme">
+												<label for="" class="control-label sbold">SELECT STATE</label>
+												<select name="" id="" class="custom-select">
+													<option value="">Select State</option>
+													<option value="">Select one</option>
+												</select>
+											</div>
+										</div>
+										
+										<div class="flex-col-6">
+												<div class="form-group">
+														<label for="" class="control-label sbold">ABOUT INSTITUTION</label>
+														<textarea name="" id="" rows="3" class="form-control" placeholder="Enter details here..."></textarea>
+														<span class="limit">
+														 <span class="text-dark">0/</span> 300 Words
+														</span>
+												</div>
+											</div>
+											
+											<div class="flex-col-6">
+													<div class="form-group">
+															<label for="" class="control-label sbold">ADDRESS</label>
+															<textarea name="" id="" rows="3" class="form-control" placeholder="Write address here..."></textarea>
+													</div>
+												
+												</div>
+												
+									</div>
+									<div class="form-group">
+										<label for="" class="control-label sbold">UPLOAD COVER IMAGE</label>
+									</div>
+									<section>
+											<form id="file-upload-form" class="uploader">
+											  <input id="file-upload" type="file" name="fileUpload" accept="image/*" />
+											  <div class="flex-box">
+												  <div class="place-image">
+														<img id="file-image" src="img/image-placeholder.jpg" alt="Preview">
+												  </div>
+												
+													<label for="file-upload" id="file-drag">
+															<div id="start">
+															  <div class="upload-label">
+																  <img src="img/icons/upload-icon.png" alt="">
+																  Select a file or drag here
+																</div>
+															  
+															  <div id="notimage" class="hidden">Please select an image</div>
+															  <span id="file-upload-btn" class="btn btn-primary">Select a file</span>
+															</div>
+															<div id="response" class="hidden">
+															  <div id="messages"></div>
+															  <progress class="progress" id="file-progress" value="0">
+																<span>0</span>%
+															  </progress>
+															</div>
+														  </label>
+											  </div>
+											 
+											 
+											</form>
+									</section>
+									<button class="btn btn-primary btn-lg mt-30">NEXT STEP</button>
+							</div>
+						</div>
+					</div>	
+				</main>
+				
+			  </div>
+			</div>
+		</div>
+		
+			<!-- Add More Details step 2 -->
+		<div class="modal micromodal-slide" id="AddMoreDetailsstep2" aria-hidden="true">
+					<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+					  <div class="modal__container modal-xl no-padding" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+						<header class="modal__header">
+						  <div class="modal-close-button close modal__close" data-micromodal-close>
+								<!-- <img src="img/icons/close-icon.png" alt=""> -->
+							</div>
+						</header>
+						<main class="modal__content" id="modal-1-content">
+							<div class="flex-row no-margin">
+								<div class="flex-col-6 no-padding">
+									<div class="reg-imgbox">
+										<img src="img/regimg.png" alt="">
+										<div class="overlay">
+											<div style="margin-top: -67px;">
+												<img class="logo" src="img/logo2.png" alt="">
+											</div>
+										
+											<nav class="reg-nav">
+													<ul class="list-inline">
+															<li>
+																<a href="">ABOUT US</a>
+															</li>
+															<li>
+																<a href="">TERMS OF SERVICE</a>
+															</li>
+																<li><a href="">PRIVACY POLICY</a></li>
+																<li><a href="">CONTACT US</a></li>
+														</ul>
+											</nav>
+											
+										</div>
+									</div>
+								</div>
+								<div class="flex-col-6">
+									<div class="pbox-40">
+										<h3 class="line left mb-30">Add More Details</h3>
+										<p class="text-muted fz-14">Please complete the <span class="text-dark">registration </span>to <span class="text-dark">create</span> your <span class="text-theme2 bold">AdmissionWeb</span> account!</p>
+											<div class="form-group  mt-30">
+												<p class="bold text-semidark fz-14 mb-15">STEP <span class="text-theme2">1</span> OF 2</p>
+												<div class="steps">
+													<div class="step-line "></div>
+													<div class="step-line active"></div>
+												</div>
+												
+											</div>
+											<div class="flex-row">
+													<div class="flex-col-6">
+															<div class="form-group">
+																	<label for="" class="control-label sbold">COURSE NAME</label>
+																	<input type="text" class="form-control" placeholder="Enter course name">
+															</div>
+														</div>
+														<div class="flex-col-6">
+																<div class="form-group">
+																		<label for="" class="control-label sbold">STREAM (OPTIONAL)</label>
+																		<input type="text" class="form-control" placeholder="Enter stream name">
+																</div>
+															</div>
+															<div class="flex-col-6">
+																	<div class="form-group">
+																			<label for="" class="control-label sbold">COURSE FEE (IN INR)</label>
+																			<input type="text" class="form-control" placeholder="Enter course fee (numeric)">
+																	</div>
+																</div>
+														
+												<div class="flex-col-6">
+													<div class="form-group select-theme">
+														<label for="" class="control-label sbold">COURSE DURATION</label>
+														<select name="" id="" class="custom-select">
+															<option value="">Select Duration</option>
+															<option value="">1 Years</option>
+															<option value="">2 Years</option>
+															<option value="">3 Years</option>
+															<option value="">4 Years</option>
+															<option value="">5 Years</option>
+														</select>
+													</div>
+												</div>
+												
+												<div class="flex-col-6">
+														<div class="form-group">
+																<label for="" class="control-label sbold">COURSE ELIGIBLITY</label>
+																<input type="text" class="form-control" placeholder="Enter Eligibility details...">
+														</div>
+													</div>
+													<div class="flex-col-6">
+															<div class="form-group">
+																	<label for="" class="control-label sbold">MIN SCHOLARSHIP <span class="text-muted">IN INR</span> (OPTIONAL)</label>
+																	<input type="text" class="form-control" placeholder="Enter Scholarship">
+															</div>
+														</div>
+											
+											</div>
+											<div class="btns-c-end">
+													<button class="btn btn-outline-blue btn-lg mt-30">BACK</button>
+													<button class="btn btn-primary btn-lg mt-30">ADD</button>
+											</div>
+											
+									</div>
+								</div>
+							</div>	
+						</main>
+						
+					  </div>
+					</div>
+		</div>
+		
+		<!-- pop up message -->
+		<div class="modal micromodal-slide" id="pop-up-message" aria-hidden="true">
+				<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+				  <div class="modal__container modal-sm" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+					<header class="modal__header">
+					  <div class="modal-close-button close modal__close" data-micromodal-close></div>
+					</header>
+					<main class="modal__content" id="modal-1-content">
+						
+						<div class="pbox-50 text-center">
+								<img src="img/icons/success.png" alt="">
+								<div class="">
+										<h3 class="bold fz-22">Course Added !</h3>
+									<p class="fz-17 text-muted"><span class="text-dark">Course</span> has been successfully  <span class="text-dark">added</span></p>
+								</div>	
+								<div class="flex-box justify-center mt-30">
+										<button class="btn btn-outline-blue btn-lg mr-10">DONE</button>
+										<button class="btn btn-primary btn-lg">ADD MORE</button>
+								</div>
+						</div>
+											
+					</main>
+					
+				  </div>
+				</div>
+		</div>
+		<!-- new course Pop up -->
+		<div class="modal micromodal-slide" id="newcoursePopup" aria-hidden="true">
+				<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+				  <div class="modal__container modal-sm" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+					<header class="modal__header">
+					  <div class="modal-close-button close modal__close" data-micromodal-close>
+						</div>
+					</header>
+					<main class="modal__content" id="modal-1-content">
+						<div class="pbox-40 highspace-from">
+								<h4 class="mb-30 semibold">Add New Course</h4>
+									<div class="flex-row col-padding-7">
+											<div class="flex-col-6">
+													<div class="form-group c-selecet">
+														<label for="" class="control-label">COURSE NAME</label>
+														 <input type="text" class="form-control" placeholder="Enter course name">
+													</div>
+												</div>
+												<div class="flex-col-6">
+														<div class="form-group c-selecet">
+															<label for="" class="control-label">STREAM (OPTIONAL)</label>
+															 <input type="text" class="form-control" placeholder="Enter stream name">
+														</div>
+													</div>
+													<div class="flex-col-6">
+															<div class="form-group c-selecet">
+																<label for="" class="control-label">COURSE FEE (IN INR)</label>
+																 <input type="text" class="form-control" placeholder="Enter course fee (numeric)">
+															</div>
+														</div>
+										<div class="flex-col-6">
+											<div class="form-group select-theme">
+												<label for="" class="control-label">Select Education Level</label>
+												 <select name="" id="" class="form-control ">
+													 <option value="">Course Duration</option>
+													 <option value="">1 Years</option>
+													 <option value="">2 Years</option>
+													 <option value="">3 Years</option>
+													 <option value="">4 Years</option>
+													 <option value="">5 Years</option>
+												 </select>
+											</div>
+										</div>
+										<div class="flex-col-6">
+												<div class="form-group c-selecet">
+													<label for="" class="control-label">COURSE ELIGIBLITY</label>
+													<input type="text" class="form-control" placeholder="Higher Education">
+												</div>
+											</div>
+											<div class="flex-col-6">
+													<div class="form-group c-selecet">
+														<label for="" class="control-label">MIN SCHOLARSHIP <span class="text-muted">IN INR</span> (OPTIONAL)</label>
+														<input type="text" class="form-control" placeholder="Higher Education">
+													</div>
+												</div>
+									</div>
+									
+									<div class="flex-box" style="justify-content: flex-end;">
+										<button class="btn btn-outline-blue btn-lg mr-10">RESET</button>
+										<button class="btn btn-primary btn-lg">ADD</button>
+									</div>
+						</div>
+							
+					</main>
+					
+				  </div>
+				</div>
+		</div>
+		
+			<!-- Course Added -->
+		<div class="modal micromodal-slide" id="CourseAdded" aria-hidden="true">
+					<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+						<div class="modal__container modal-xl no-padding" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+						<header class="modal__header">
+							<div class="modal-close-button close modal__close" data-micromodal-close>
+								<!-- <img src="img/icons/close-icon.png" alt=""> -->
+							</div>
+						</header>
+						<main class="modal__content" id="modal-1-content">
+							<div class="flex-row no-margin">
+								<div class="flex-col-6 no-padding">
+									<div class="reg-imgbox">
+										<img src="img/regimg.png" alt="">
+										<div class="overlay">
+											<div style="margin-top: -67px;">
+												<img class="logo" src="img/logo2.png" alt="">
+											</div>
+										
+											<nav class="reg-nav">
+													<ul class="list-inline">
+															<li>
+																<a href="">ABOUT US</a>
+															</li>
+															<li>
+																<a href="">TERMS OF SERVICE</a>
+															</li>
+																<li><a href="">PRIVACY POLICY</a></li>
+																<li><a href="">CONTACT US</a></li>
+														</ul>
+											</nav>
+											
+										</div>
+									</div>
+								</div>
+								<div class="flex-col-6">
+									<div class="pbox-40">
+										<h3 class="line left mb-30">Add More Details</h3>
+										<p class="text-muted fz-14">Please complete the <span class="text-dark">registration </span>to <span class="text-dark">create</span> your <span class="text-theme2 bold">AdmissionWeb</span> account!</p>
+											<div class="form-group  mt-30">
+												<p class="bold text-semidark fz-14 mb-15">STEP <span class="text-theme2">1</span> OF 2</p>
+												<div class="steps">
+													<div class="step-line "></div>
+													<div class="step-line active"></div>
+												</div>
+											</div>
+											<ul class="accordian">
+												<li>
+													<h4 class="accordian-title">B.tech (Computer Science)</h4>
+													<div class="ac-detail-item">
+														<table class="table">
+															<tr>
+																<td><span class="text-muted">Course Name :</span>  B.Tech</td>
+																<td class="text-muted">Stream :  Computer Science</td>
+															</tr>
+															<tr>
+																	<td><span class="text-muted">Course Fee </span>:  Rs. 56,518</td>
+																	<td><span class="text-muted">Duration : </span> 4 Years</td>
+																</tr>
+																<tr>
+																		<td><span class="text-muted">Eligiblity :</span> Higher Education</td>
+																	</tr>
+														</table>
+														<div class="flex-box" style="justify-content: flex-end;">
+																<button class="btn btn-outline-blue btn-sm  mr-10">EDIT</button>
+																<button class="btn btn-outline-red btn-sm">REMOVE</button>
+															</div>
+													</div>
+													
+												</li>
+												
+												
+												<li>
+													<h4 class="accordian-title">MBA (HR & Marketing)</h4>
+														<div class="ac-detail-item">
+																<table class="table">
+																	<tr>
+																		<td><span class="text-muted">Course Name :</span>  B.Tech</td>
+																		<td class="text-muted">Stream :  Computer Science</td>
+																	</tr>
+																	<tr>
+																			<td><span class="text-muted">Course Fee </span>:  Rs. 56,518</td>
+																			<td><span class="text-muted">Duration : </span> 4 Years</td>
+																		</tr>
+																		<tr>
+																				<td><span class="text-muted">Eligiblity :</span> Higher Education</td>
+																			</tr>
+																</table>
+																<div class="flex-box" style="justify-content: flex-end;">
+																		<button class="btn btn-outline-blue btn-sm  mr-10">EDIT</button>
+																		<button class="btn btn-outline-red btn-sm">REMOVE</button>
+																	</div>
+															</div>
+												</li>
+											</ul>
+											
+											<div class="btns-c-end">
+													<button class="btn btn-outline-blue btn-lg mt-30">ADD MORE</button>
+													<button class="btn btn-primary btn-lg mt-30">FINISH</button>
+											</div>
+											
+									</div>
+								</div>
+							</div>	
+						</main>
+						
+						</div>
+					</div>
+		</div>
+			
 <script src="js/jQuery.min.js"></script>
 	<script src="js/scroll-out.js"></script>
 	<script src="js/swiper.min.js"></script>
 	<script src="js/splitting.js"></script>
 	<script src="js/micromodal.min.js"></script>
+	<script src="js/file-upload.js"></script>
 	<script src="js/controller.js"></script>
 
 </body>
