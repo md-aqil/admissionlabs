@@ -8,3 +8,103 @@ h2 {
 		color: #212121;
 		margin: 0;
 	}
+
+	.top-search .ui-select {
+		width: 226px !important;
+	}
+
+	.search-form-box.top-search .input-group .search-btn {
+		border: none !important;
+	}
+	.nav-items .main-nav {
+		justify-content: flex-end;
+	}
+	.site-logo {
+		margin-right: 0;
+	}
+
+	.theme-bg-contaier .btn {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	.btn-primary {
+		border-color: var(--theme-color1) !important;
+	}
+
+	.front-banner-overlay .nav-items .main-nav li a {
+		padding-right: 2px;
+		padding-left: 2px;
+	}
+	.btn-outline-white:hover {
+		border-color: #fff;
+	}
+
+	.btn img {
+		margin: 0 !important;
+	}
+
+	.btn {
+		border: none;
+		border: 2px solid;
+	}
+
+	.modal__container .flex-row{
+		margin: 0 !important;
+	}
+
+	.accordian-title {
+		padding-bottom: 20px;
+		padding-top: 10px;
+
+	}
+
+	.offer-box,.single-section-slider .side-info {
+		margin-left: 15px;
+		
+	}
+	.reg-imgbox {
+		height: 100vh;
+	}
+
+	.accordian {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    margin-bottom: 60px;
+}
+
+.scroll-y {
+	overflow-y: scroll;
+}
+
+.tpappend {
+	width: 309px;
+}
+
+.site-footer .row .footer-col {
+    -ms-flex-preferred-size: 33%;
+    flex-basis: 25% !important;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header {
+	margin-top: 0;
+	padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navbar {
+	padding-top: 0;
+}
+
+.f-center {
+	display: flex;
+	align-items: center;
+}
+
+.navbar {
+   
+    width: 94%;
+    margin: auto;
+}

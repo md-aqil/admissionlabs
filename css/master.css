@@ -733,47 +733,6 @@ html, body {
   height: 100%;
 }
 
-.header {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.main-nav {
-  margin-top: 5px;
-}
-
-.header {
-  margin-top: 35px;
-}
-
-.nav-items {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.nav-items .main-nav {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
 
 .nav-items .main-nav li a {
   text-decoration: none;
@@ -927,12 +886,6 @@ html, body {
   margin: 0;
 }
 
-.subs-row .input-group .form-control {
-  width: 100%;
-  font-size: 15px;
-  width: 90%;
-  float: right;
-}
 
 .subs-row .input-group .search-btn {
   position: absolute;
