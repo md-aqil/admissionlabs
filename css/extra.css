@@ -122,3 +122,11 @@ h2 {
 	padding: 9px 18px;
 	margin-right: 5px;
 }
+
+
+
+.search-form-box.top-search .input-group .search-btn {
+    border-radius: 6px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}

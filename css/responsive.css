@@ -181,7 +181,7 @@
 }
 
 .mw100 {
-    width: 100%;
+    width: 96%;
 }
 
 .tp-box h4 {
@@ -384,4 +384,17 @@
     font-weight: bold;
     margin-right: 6px;
 }
+.tp-box p {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1;
+    margin-top: 6px;
+}
+
+.search-form-box.top-search .input-group .search-btn {
+    border-radius: 6px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
 }
