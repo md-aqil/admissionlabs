@@ -114,6 +114,9 @@
 
 .intro-section .ct-title {
     text-align: center !important;
+   
+    font-size: 24px;
+    line-height: 40px;
 }
 .action-btn-row {
     width: 100%;
@@ -153,7 +156,7 @@
     flex-wrap: nowrap;
 }
 
-.ui-select > span:after {
+.front-banner-overlay .ui-select > span:after {
     content: "";
     background: url(../img/icons/Arrow.png) no-repeat;
     width: 27px;
@@ -208,8 +211,10 @@
 }
 
 .form-inline .btn {
-    padding-left: 17px;
-    padding-right: 17px;
+   
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 5px;
 }
 
 .testi-user-img {
@@ -293,5 +298,90 @@
     padding: 7px 6px;
 }
 
+.dash-nav-item li {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
 
+.log-out a {
+    width: 52px;
+}
+
+.dash-header .site-logo {
+    margin-left: 15px !important;
+}
+.navbar-toggler {
+    margin-right: 15px;
+   
+}
+
+.second-nav {
+    overflow: auto;
+    height: 55px;
+}
+
+.second-nav li a {
+   
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+    
+    padding: 5px 5px;
+}
+
+.flex-row.tws .flex-col{
+    flex-basis: 100%;
+}
+
+.tws .input-with-icon {
+    width: 100%;
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+
+.card-view {
+    padding: 15px;
+}
+
+.r-layout .r-img {
+    margin: 0;
+}
+.pagination-section .flex-row .flex-col {
+    justify-content: center;
+}
+.pagination-section .pagination {
+    justify-content: center;
+    margin-top: 15px;
+}
+.h3-titlte {
+    padding-bottom: 12px;
+} 
+
+.r-layout .r-img img {
+    height: 60px;
+}
+
+.navbar-toggler path {
+    stroke: #fff;
+}
+.front-banner-overlay .navbar {
+    width: 100%;
+    margin: auto;
+}
+.front-banner-overlay .navbar-toggler {
+    margin-right: 0;
+}
+
+.search-form-box .drop-menu li {
+    padding: 10px 10px;
+}
+
+.s-tag {
+    width: 32px;
+    height: 30px;
+   font-size: 14px;
+    font-weight: bold;
+    margin-right: 6px;
+}
 }

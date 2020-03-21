@@ -108,3 +108,17 @@ h2 {
     width: 94%;
     margin: auto;
 }
+
+.dash-header .navbar {
+	width: 100%;
+	padding: 0;
+}
+
+.r-content {
+	margin-left: 15px;
+}
+
+.btn-list .btn {
+	padding: 9px 18px;
+	margin-right: 5px;
+}
