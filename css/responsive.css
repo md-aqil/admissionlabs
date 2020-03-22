@@ -185,7 +185,7 @@
 }
 
 .tp-box h4 {
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 900;
     color: var(--theme-color2);
     margin: 0;
@@ -193,7 +193,7 @@
 
 .tp-box p {
     margin: 0;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.2;
     margin-top: 6px;
 }
@@ -240,6 +240,7 @@
 .swiper-container.testimonial .swiper-pagination {
     left: inherit;
     right: 15px !important;
+    margin-top: -35px;
 }
 
 .subs-row {
@@ -268,6 +269,7 @@
 
 .theme-bg-contaier {
     display: block;
+    padding-top: 30px;
 }
 
 .bg-2 {
@@ -386,7 +388,7 @@
 }
 .tp-box p {
     margin: 0;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 1;
     margin-top: 6px;
 }
@@ -396,5 +398,43 @@
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
+.front-banner-overlay .navbar-collapse  {
+    background: var(--theme-color2);
+    padding-bottom: 20px;
+}
+.site-footer {
+    margin-bottom: 0;
+}
+.top-bonus-section {
+    box-shadow: none;
+    flex-wrap: wrap;
+    background: none;
+    height: 220px;
+}
+
+.tp-box {
+    box-shadow: -0.21px 3.99px 30px rgba(0, 0, 0, 0.05);
+    width: 45%;
+    margin: 8px;
+    border: none;
+    border-radius: 6px;
+    background: #fff;
+    height: 101px;
+    padding: 10px;
+}
+
+.site-footer .row {
+    margin: 0;
+}
+
+
+.copyright {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    margin-bottom: -25px;
+}
+
 
 }

@@ -39,16 +39,17 @@ h2 {
 	.btn-outline-white:hover {
 		border-color: #fff;
 	}
-
+	.h3-titlte {
+		margin-bottom: 15px !important;
+	}
 	.btn img {
 		margin: 0 !important;
 	}
 
-	.btn {
-		border: none;
-		border: 2px solid;
-	}
 
+	.input-with-icon .icon {
+		top: 18px;
+	}
 	.modal__container .flex-row{
 		margin: 0 !important;
 	}
@@ -129,4 +130,8 @@ h2 {
     border-radius: 6px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+}
+
+.dashboard-graph .card-view {
+	height: 122px;
 }
