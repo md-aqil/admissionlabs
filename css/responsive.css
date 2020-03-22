@@ -271,9 +271,12 @@
     display: block;
     padding-top: 30px;
     padding-bottom: 30px;
+    background: var(--theme-color2);
+    
 }
 .theme-bg {
     height: 600px;
+    display: none;
 }
 .bg-2 {
     display: none;
