@@ -270,6 +270,7 @@
 .theme-bg-contaier {
     display: block;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .bg-2 {
