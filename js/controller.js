@@ -140,7 +140,7 @@ var galleryTop = new Swiper('.swiper-container.testimonial', {
 	speed: 400,
 	spaceBetween: 50,
 	mousewheelControl: false,
-	simulateTouch:false
+	simulateTouch:false,
 
 	// autoplay: {
 	//   delay: 3000,
