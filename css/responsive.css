@@ -272,7 +272,9 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
+.theme-bg {
+    height: 600px;
+}
 .bg-2 {
     display: none;
 }
