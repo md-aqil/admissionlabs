@@ -11,42 +11,52 @@
 	<link rel="stylesheet" href="css/starter.css">
 	<link rel="stylesheet" href="css/master.css">
 	<link rel="stylesheet" href="css/extra.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<title>Document</title>
 </head>
 <body>
 
 		
-	<header class="header colored sticky-header" data-scroll>
-		<div class="c-container">
-			<div class="nav-items">
-			<a href="">
-			<img class="site-logo" src="img/logo.png" alt="">
-			</a>
-			<ul class="main-nav">
-				<li class="nav-item active">
-				<a class="nav-link active" href="#">Home</a>
-				</li>
-				<li class="nav-item">
-				<a class="nav-link" href="#">Councellor</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">SCHOLARSHIPS</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">DREAM INSTITUTION</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">BLOGS</a>
-					</li>
-			</ul>
-				<div class="form-inline">
+		<header class="header sticky-header colored" data-scroll>
+			<nav class="navbar navbar-expand-lg bg-transparent">
+
+			
+				<a class="navbar-brand" href="#">
+					<img class="site-logo" src="img/logo.png" alt="">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg>
+				</button>
+			  
+				<div class="collapse navbar-collapse nav-items" id="navbarSupportedContent">
+				  <ul class="navbar-nav ml-auto main-nav">
+					<li class="nav-item active">
+						<a class="nav-link active" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+						<a class="nav-link" href="#">Councellor</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">SCHOLARSHIPS</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">DREAM INSTITUTION</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">BLOGS</a>
+							</li>
+				  </ul>
+				  <form class="form-inline">
 					<button class="btn btn-outline-white mr-2" type="submit">LIST YOURSELF</button>
-					<button class="btn btn-outline-white mr-2" type="submit">REGISTER</button>
-					<button class="btn btn-primary" data-toggle="modal" data-target="#one">LOGIN</button>
+						<button class="btn btn-outline-white mr-2" type="submit">REGISTER</button>
+						<button class="btn btn-primary" data-toggle="modal" data-target="#one">LOGIN</button>
+				  </form>
 				</div>
-			</div>
-		</div>
-	</header> 
+
+			
+			  </nav>
+		</header> 
 	<div class="c-container">
 			<div class="goback">
 					<img src="img/icons/long-arrow-left.png" alt="">
@@ -114,7 +124,7 @@
 												<div class="tag large">5 +</div>
 											</div>
 									<p>
-										<img src="img/icons/line.png" alt="">
+										<img class="line-img" src="img/icons/line.png" alt="">
 									</p>
 									<p class="color-text">
 											Get upto 30% scholarsip ! Use code ADMISSIONWEB30 while paying fees.
@@ -255,6 +265,7 @@
 	<script src="js/swiper.min.js"></script>
 	<script src="js/splitting.js"></script>
 	<script src="js/micromodal.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<script src="js/controller.js"></script>
 
 </body>

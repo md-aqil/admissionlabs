@@ -12,11 +12,6 @@ html, body {
   color: #212121 !important;
 }
 
-.form-inline .btn {
-  font-size: 14px;
-  padding-top: 11.5px;
-}
-
 .text-center {
   text-align: center !important;
 }
@@ -769,36 +764,8 @@ html, body {
   margin-right: 50px;
 }
 
-.btn {
-  border-radius: 5px;
-  font-weight: normal;
-  font-size: 15px;
-  letter-spacing: 0.02em;
-  line-height: 12px;
-  text-align: center;
-  font-weight: 600;
-  font-size: 14px;
-  padding: 14px 30px;
-  cursor: pointer;
-}
 
-.btn-theme {
-  background: var(--theme-color1);
-  color: #212121;
-}
 
-.form-inline {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.form-inline .btn {
-  height: 38px;
-  text-align: center;
-  margin-left: 10px;
-  white-space: nowrap;
-}
 
 .theme-bg-contaier {
   width: 100%;

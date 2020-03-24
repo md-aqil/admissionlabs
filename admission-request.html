@@ -9,68 +9,84 @@
 	<link rel="stylesheet" href="css/splitting.css">
 	<link rel="stylesheet" href="css/mobile.css">
 	<link rel="stylesheet" href="css/starter.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
 	<link rel="stylesheet" href="css/master.css">
 	<link rel="stylesheet" href="css/extra.css">
+	<link rel="stylesheet" href="css/responsive.css">
 	<title>Document</title>
 </head>
 <body>
 
 		
 	<header class="header colored sticky-header dash-header" data-scroll>
-		<div class="">
-			<div class="nav-items">
-			<a href="">
-			<img class="site-logo" src="img/logo.png" alt="">
+		<nav class="navbar navbar-expand-lg bg-transparent">
+
+				
+			<a class="navbar-brand" href="index.html">
+				<img class="site-logo" src="img/logo.png" alt="">
 			</a>
-			<ul class="main-nav">
-				<li class="nav-item active">
-				<a class="nav-link active" href="#">DASHBOARD</a>
-				                                           
-				</li>
-				<li class="nav-item">
-				<a class="nav-link" href="#">MY PROFILE</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">SETTINGS</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">CONTACT US</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">BLOGS</a>
-					</li>
-			</ul>
-				<div class="form-inline">
-					<ul class="dash-nav-item">
-						<li class="por">
-							<img src="img/icons/bell.png" alt="">
-							<span class="notification">
-								3
-							</span>
-						</li>
-						<li>
-							<div class="flex-box user-ilabel">
-								<div class="iavatar">
-									<img src="img/icons/c-avatar.png" alt="">
-								</div>
-								<div>
-									<h4>Hi, <span class="bold">Gautam Budha University</span></h4>
-									<p>Premium Institution &nbsp;<img src="img/icons/check-circle-icon.png" alt=""></p>
-								</div>
-							</div>
-						</li>
-						<li class="log-out">
-							<a href="">
-									<img src="img/icons/log-out.png" alt="">
-							</a>
-							
-						</li>
-					</ul>
-				</div>
+			<div class="por m-bell">
+				<img src="img/icons/bell.png" alt="">
+				<span class="notification">
+					3
+				</span>
 			</div>
-		</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg>
+			</button>
+		  
+			<div class="collapse navbar-collapse nav-items" id="navbarSupportedContent">
+			  <ul class="navbar-nav ml-auto main-nav">
+				<li class="nav-item active">
+					<a class="nav-link active" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="#">Councellor</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">SCHOLARSHIPS</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">DREAM INSTITUTION</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">BLOGS</a>
+						</li>
+			  </ul>
+			  <div class="form-inline">
+				<ul class="dash-nav-item">
+					<li class="por d-bell">
+						<img src="img/icons/bell.png" alt="">
+						<span class="notification">
+							3
+						</span>
+					</li>
+					<li>
+						<div class="flex-box user-ilabel">
+							<div class="iavatar">
+								<img src="img/icons/c-avatar.png" alt="">
+							</div>
+							<div>
+								<h4>Hi, <span class="bold">Gautam Budha University</span></h4>
+								<p>Premium Institution &nbsp;<img src="img/icons/check-circle-icon.png" alt=""></p>
+							</div>
+						</div>
+					</li>
+					<li class="log-out">
+						<a href="">
+								<img src="img/icons/log-out.png" alt="">
+						</a>
+						
+					</li>
+				</ul>
+				</form>
+			</div>
+
+		
+		  </nav>
 	</header> 
-	
+
 	<section class="dashboard-graph c-container spacer-top-30">
 		<div class="flex-row">
 			<div class="flex-col">
@@ -319,7 +335,7 @@
 
 <section class="c-container mb-20">
 	<div class="flex-row no-margin">
-		<div class="flex-col left-center  no-padding" style="display: flex;">
+		<div class="flex-col left-center  no-padding m-center" style="display: flex;">
 				<label for="" class="control-label" style="font-size: 15px;
 				margin-right: 20px;margin-bottom: 0;
 				text-transform: capitalize;">Showing Result</label>
@@ -581,6 +597,7 @@
 	<script src="js/swiper.min.js"></script>
 	<script src="js/splitting.js"></script>
 	<script src="js/micromodal.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<script src="js/controller.js"></script>
 
 </body>

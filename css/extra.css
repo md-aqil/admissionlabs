@@ -119,11 +119,6 @@ h2 {
 	margin-left: 15px;
 }
 
-.btn-list .btn {
-	padding: 9px 18px;
-	margin-right: 5px;
-}
-
 
 
 .search-form-box.top-search .input-group .search-btn {
@@ -135,3 +130,30 @@ h2 {
 .dashboard-graph .card-view {
 	height: 122px;
 }
+
+.m-bell {
+	display: none;
+}
+
+.form-inline .btn {
+	height: initial !important;
+}
+
+.btn {
+	border-radius: 5px;
+  }
+  
+  .btn-theme,.btn-primary {
+	background: var(--theme-color1) !important;
+	color: #212121 !important;
+
+  }
+  .btn-outline-white {
+	  border: 2px solid #fff !important;
+  }
+
+  .search-single .swiper-slide {
+	  height: 450px;
+  }
+  
+  
