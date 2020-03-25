@@ -809,11 +809,6 @@ html, body {
   display: flex;
 }
 
-.search-form-box.top-search .input-group input {
-  padding-left: 20px;
-  width: 453px;
-  font-size: 15px;
-}
 
 .search-form-box.top-search .input-group .search-btn {
   position: absolute;
@@ -1549,14 +1544,6 @@ html, body {
 
 .search-form-box .form-control {
   padding-left: 20px;
-}
-
-.search-form-box.top-search .input-group input {
-  padding-left: 20px;
-  width: 59%;
-  font-size: 15px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
 }
 
 h1, a, li {

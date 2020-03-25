@@ -156,4 +156,7 @@ h2 {
 	  height: 450px;
   }
   
-  
+  .fb-select .input-group-text{
+	padding: 0;
+	border: none;
+  }
