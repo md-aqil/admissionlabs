@@ -613,7 +613,94 @@
 }
 
 
+.modal__row .flex-col-6{
+    max-width: 100%;
+    flex-basis: 100%;
+  
+
+}
+.modal__content .flex-col-6{
+    max-width: 100%;
+    flex-basis: 100%;
+    
+}
+
+.modal__content .mt-30.text-center {
+    display: flex;
+}
+
+.pbox-50 {
+    padding: 40px !important;
+   
+}
+
+.reg-imgbox {
+    height: 250px !important;
+}   
+
+.reg-imgbox .reg-nav .list-inline li {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.reg-imgbox .reg-nav .list-inline a {
+    color: #fff;
+    font-size: 11px;
+}
+
+.scroll-y .pbox-40 {
+    padding: 30px;
+}
+
+.radio-inline {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#file-image {
+    width: 120px !important;
+}
+.uploader label {
+    padding: 10px;
+    margin: 0;
+
+}
+
+.btns-c-end {
+    position: static;
+    width: 100%;
+}
+
+.btns-c-end .btn {
+    margin-top: 10px !important;
+}
 
 
+.modal-xl.modal__container {
+    max-width: 100%;
+    width: 100%;
+    padding: 15px 30px;
+}
+
+.student-details-box {
+    display: block;
+}
+
+.student-details-box .flex-col {
+    max-width: 100%;
+    flex-basis: 100%;
+    margin: 0;
+}
+
+.stup {
+    margin-bottom: 15px;
+}
+
+.flex-col, .flex-col-6 {
+    padding: 0 !important;
+}
+
+.m1p {
+    padding: 30px;
+}
 
 }
