@@ -695,7 +695,7 @@
     margin-bottom: 15px;
 }
 
-.flex-col, .flex-col-6 {
+.modal__content  .flex-col, .modal__content .flex-col-6 {
     padding: 0 !important;
 }
 
