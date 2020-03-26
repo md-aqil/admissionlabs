@@ -746,5 +746,38 @@
     padding: 20px !important;
 }
 
+.sidebar-row {
+    display: block;
+}
+.sidebar-row .main {
+  
+    width: 100%;
+    margin: 0;
+}
 
+.srvew .taglist {
+    flex-wrap: wrap;
+}
+.sidebar-row .sidebar {
+    width: 100%;
+}
+
+.srvew .r-layout {
+    display: block;
+}
+
+.srvew .r-layout .r-img img {
+    height: 100%;
+}
+
+.srvew .r-layout .r-img {
+    margin-bottom: 20px !important;
+    position: relative;
+    width: 250px;
+    height: 100px;
+    margin-right: 20px;
+}
+.srvew .tag.large {
+    margin-top: 5px;
+}
 }
