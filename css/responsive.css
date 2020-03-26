@@ -703,4 +703,48 @@
     padding: 30px;
 }
 
+.cl-box {
+    display: block;
+}
+.calander-box {
+    width: 100%;
+    padding: 15px;
+}
+
+.timeline-box {
+    width: 100%;
+}
+.date-box {
+    width: 73px;
+    height: 65px;
+}
+
+.date-box p {
+    font-weight: normal;
+    font-size: 13px;
+    margin: 0;
+    margin-top: 14px;
+
+
+}
+
+.timeline.full-width {
+    padding-left: 32px;
+}
+
+.label-24 {
+   
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+#modal-1-content .mp20{
+    padding: 20px !important;
+}
+
+.mp20 {
+    padding: 20px !important;
+}
+
+
 }
